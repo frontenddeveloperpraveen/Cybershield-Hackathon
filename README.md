@@ -84,6 +84,7 @@ SafeRank is a powerful Chrome extension that analyzes websites for tracking tech
 
 This extension runs entirely on your device and does not send any data to external servers. All analysis happens locally, and all data is stored only in your browser's local storage. The extension does not track you - it helps you understand who is tracking you!
 
-##Authers
+## Authers
+
 Praveen KR - 23BAI10410
 Narmada Natarajan - 23BAI11088
