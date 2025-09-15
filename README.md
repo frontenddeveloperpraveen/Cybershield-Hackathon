@@ -1,8 +1,8 @@
-# Privacy Score Analyzer - Chrome Extension
+# SafeRank - Chrome Extension
 
 ## Overview
 
-Privacy Score Analyzer is a powerful Chrome extension that analyzes websites for tracking technologies and provides a privacy score from A to F. It helps users understand which websites respect their privacy and which ones may be tracking their online behavior excessively.
+SafeRank is a powerful Chrome extension that analyzes websites for tracking technologies and provides a privacy score from A to F. It helps users understand which websites respect their privacy and which ones may be tracking their online behavior excessively.
 
 ## Features
 
@@ -12,6 +12,7 @@ Privacy Score Analyzer is a powerful Chrome extension that analyzes websites for
 - Detects trackers in HTML, script tags, link tags, iframes, and image tags
 - Identifies tracking cookies and localStorage items
 - Detects potential browser fingerprinting techniques
+- Blocks all the unwanted tracker automatically
 
 ### 📊 Privacy Scoring System
 
@@ -50,12 +51,11 @@ Privacy Score Analyzer is a powerful Chrome extension that analyzes websites for
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" in the top-right corner
 4. Click "Load unpacked" and select the extension directory
-5. Generate icons by running `node generate_icons.js` in the icons directory (or create your own icons)
 
 ## Usage
 
 1. Browse the web as you normally would
-2. Click on the Privacy Score Analyzer icon to see the privacy score of the current website
+2. Click on the SafeRank icon to see the privacy score of the current website
 3. Navigate between tabs to see detailed information, history, and settings
 4. Use the "Scan Again" button to refresh the analysis on the current page
 
@@ -83,3 +83,7 @@ Privacy Score Analyzer is a powerful Chrome extension that analyzes websites for
 ## Privacy Statement
 
 This extension runs entirely on your device and does not send any data to external servers. All analysis happens locally, and all data is stored only in your browser's local storage. The extension does not track you - it helps you understand who is tracking you!
+
+##Authers
+Praveen KR - 23BAI10410
+Narmada Natarajan - 23BAI11088
